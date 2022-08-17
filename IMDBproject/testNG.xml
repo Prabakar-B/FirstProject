@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test1 Suite" >
+
+	<test name="Test cases">
+		<classes>
+			<class name="testNG.IMDB"></class>
+		</classes>	
+	</test>
+
+	<test name="Test2 cases">
+		<parameter name="search" value="Linux"></parameter>
+		<classes>
+			<class name="testNG.Wiki"></class>
+		</classes>
+	</test>
+</suite>

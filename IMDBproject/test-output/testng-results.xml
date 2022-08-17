@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test1 Suite" duration-ms="104084" started-at="2022-08-16T19:51:11 IST" finished-at="2022-08-16T19:52:55 IST">
+    <groups>
+    </groups>
+    <test name="Test cases" duration-ms="37820" started-at="2022-08-16T19:51:11 IST" finished-at="2022-08-16T19:51:48 IST">
+      <class name="testNG.IMDB">
+        <test-method status="PASS" signature="OpenGoogle1()[pri:0, instance:testNG.IMDB@707e36]" name="OpenGoogle1" duration-ms="25408" started-at="2022-08-16T19:51:11 IST" finished-at="2022-08-16T19:51:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogle1 -->
+        <test-method status="PASS" signature="test0()[pri:0, instance:testNG.IMDB@707e36]" name="test0" duration-ms="1266" started-at="2022-08-16T19:51:36 IST" finished-at="2022-08-16T19:51:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test0 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNG.IMDB@707e36]" name="test1" duration-ms="889" started-at="2022-08-16T19:51:37 IST" finished-at="2022-08-16T19:51:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testNG.IMDB@707e36]" name="test2" duration-ms="1701" started-at="2022-08-16T19:51:38 IST" finished-at="2022-08-16T19:51:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="FAIL" signature="test3()[pri:0, instance:testNG.IMDB@707e36]" name="test3" duration-ms="8375" started-at="2022-08-16T19:51:40 IST" finished-at="2022-08-16T19:51:48 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'
+System info: host: 'PRBU', ip: '192.168.43.205', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\prabu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f3e0384da63703ad27d37574e520ae93]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=104.0.5112.81)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:58:47'
+System info: host: 'PRBU', ip: '192.168.43.205', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\prabu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f3e0384da63703ad27d37574e520ae93
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.isSelected(RemoteWebElement.java:146)
+at testNG.IMDB.test3(IMDB.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- testNG.IMDB -->
+    </test> <!-- Test cases -->
+    <test name="Test2 cases" duration-ms="65597" started-at="2022-08-16T19:51:49 IST" finished-at="2022-08-16T19:52:55 IST">
+      <class name="testNG.Wiki">
+        <test-method status="PASS" signature="OpenGoogle()[pri:0, instance:testNG.Wiki@150efb8]" name="OpenGoogle" duration-ms="45297" started-at="2022-08-16T19:51:49 IST" finished-at="2022-08-16T19:52:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogle -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:testNG.Wiki@150efb8]" name="testA" duration-ms="17" started-at="2022-08-16T19:52:34 IST" finished-at="2022-08-16T19:52:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testB()[pri:0, instance:testNG.Wiki@150efb8]" name="testB" duration-ms="196" started-at="2022-08-16T19:52:34 IST" finished-at="2022-08-16T19:52:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="testC(java.lang.String)[pri:0, instance:testNG.Wiki@150efb8]" name="testC" duration-ms="19859" started-at="2022-08-16T19:52:35 IST" finished-at="2022-08-16T19:52:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="testD()[pri:0, instance:testNG.Wiki@150efb8]" name="testD" duration-ms="188" started-at="2022-08-16T19:52:55 IST" finished-at="2022-08-16T19:52:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testD -->
+      </class> <!-- testNG.Wiki -->
+    </test> <!-- Test2 cases -->
+  </suite> <!-- Test1 Suite -->
+</testng-results>
